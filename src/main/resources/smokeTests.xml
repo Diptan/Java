@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Smoke" verbose="1">
+
+    <test name="ConfigPractice">
+        <classes>
+            <class name="tests.ResultsPageTest">
+                <methods>
+                    <include name="verifySearchResultsHaveCorrectLocation"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
